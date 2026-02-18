@@ -1,0 +1,416 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red236\green241\blue247;\red251\green0\blue7;
+\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red77\green80\blue85;
+\red24\green112\blue43;\red9\green60\blue148;\red19\green118\blue70;\red111\green14\blue195;}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c94118\c95686\c97647;\cssrgb\c100000\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c37255\c38824\c40784;
+\cssrgb\c9412\c50196\c21961;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;\cssrgb\c51765\c18824\c80784;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "id"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 Trigo Mobile Legend\cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cb1 \
+\cb3     \cf9 \strokec9 <!-- Scripts & Styles -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://unpkg.com/react@18/umd/react.production.min.js"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://unpkg.com/@babel/standalone/babel.min.js"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;700&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 body\cf0 \strokec5  \{ \cf4 \strokec4 font-family:\cf0 \strokec5  \cf10 \strokec10 'Poppins'\cf0 \strokec5 , \cf11 \strokec11 sans-serif\cf0 \strokec5 ; \cf4 \strokec4 overflow:\cf0 \strokec5  \cf11 \strokec11 hidden\cf0 \strokec5 ; \cf4 \strokec4 background-color:\cf0 \strokec5  \cf11 \strokec11 #000\cf0 \strokec5 ; \}\cb1 \
+\cb3         \cf7 \strokec7 .font-game\cf0 \strokec5  \{ \cf4 \strokec4 font-family:\cf0 \strokec5  \cf10 \strokec10 'Bungee'\cf0 \strokec5 , \cf11 \strokec11 cursive\cf0 \strokec5 ; \}\cb1 \
+\cb3         \cb1 \
+\cb3         \cf9 \strokec9 /* Splash Screen Animation - 6 Seconds */\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 .splash-zoom\cf0 \strokec5  \{ \cb1 \
+\cb3             \cf4 \strokec4 animation:\cf0 \strokec5  \cf11 \strokec11 zoomIn\cf0 \strokec5  \cf12 \strokec12 6s\cf0 \strokec5  \cf11 \strokec11 ease-in-out\cf0 \strokec5  \cf11 \strokec11 forwards\cf0 \strokec5 ; \cb1 \
+\cb3         \}\cb1 \
+\cb3         \cb1 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf11 \strokec11 zoomIn\cf0 \strokec5  \{\cb1 \
+\cb3             \cf12 \strokec12 0%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 scale(\cf12 \strokec12 0.9\cf11 \strokec11 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 20%\cf0 \strokec5  \{ \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 1\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 80%\cf0 \strokec5  \{ \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 1\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 100%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 scale(\cf12 \strokec12 1.1\cf11 \strokec11 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf7 \strokec7 .shake\cf0 \strokec5  \{ \cf4 \strokec4 animation:\cf0 \strokec5  \cf11 \strokec11 shake\cf0 \strokec5  \cf12 \strokec12 0.5s\cf0 \strokec5  \cf11 \strokec11 cubic-bezier(\cf12 \strokec12 .36\cf0 \strokec5 ,\cf12 \strokec12 .07\cf0 \strokec5 ,\cf12 \strokec12 .19\cf0 \strokec5 ,\cf12 \strokec12 .97\cf11 \strokec11 )\cf0 \strokec5  \cf11 \strokec11 both\cf0 \strokec5 ; \}\cb1 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf11 \strokec11 shake\cf0 \strokec5  \{\cb1 \
+\cb3             \cf12 \strokec12 10%\cf0 \strokec5 , \cf12 \strokec12 90%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 translate3d(\cf12 \strokec12 -1px\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf11 \strokec11 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 20%\cf0 \strokec5 , \cf12 \strokec12 80%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 translate3d(\cf12 \strokec12 2px\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf11 \strokec11 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 30%\cf0 \strokec5 , \cf12 \strokec12 50%\cf0 \strokec5 , \cf12 \strokec12 70%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 translate3d(\cf12 \strokec12 -4px\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf11 \strokec11 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 40%\cf0 \strokec5 , \cf12 \strokec12 60%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 translate3d(\cf12 \strokec12 4px\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf11 \strokec11 )\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .rope-line\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf12 \strokec12 12px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf11 \strokec11 linear-gradient(\cf12 \strokec12 90deg\cf0 \strokec5 , \cf11 \strokec11 #8B4513\cf0 \strokec5  \cf12 \strokec12 0%\cf0 \strokec5 , \cf11 \strokec11 #CD853F\cf0 \strokec5  \cf12 \strokec12 50%\cf0 \strokec5 , \cf11 \strokec11 #8B4513\cf0 \strokec5  \cf12 \strokec12 100%\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5  \cf12 \strokec12 4px\cf0 \strokec5  \cf12 \strokec12 6px\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 0\cf0 \strokec5 ,\cf12 \strokec12 0\cf0 \strokec5 ,\cf12 \strokec12 0\cf0 \strokec5 ,\cf12 \strokec12 0.3\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf11 \strokec11 relative\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .knot\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 width:\cf0 \strokec5  \cf12 \strokec12 30px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf12 \strokec12 30px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf11 \strokec11 #ff0000\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf12 \strokec12 50%\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf11 \strokec11 absolute\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 top:\cf0 \strokec5  \cf12 \strokec12 -9px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 left:\cf0 \strokec5  \cf12 \strokec12 50%\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 transform:\cf0 \strokec5  \cf11 \strokec11 translateX(\cf12 \strokec12 -50%\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf12 \strokec12 4px\cf0 \strokec5  \cf11 \strokec11 solid\cf0 \strokec5  \cf11 \strokec11 #fff\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf11 \strokec11 left\cf0 \strokec5  \cf12 \strokec12 0.3s\cf0 \strokec5  \cf11 \strokec11 ease-out\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "root"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text/babel"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         const \{ useState, useEffect, useRef \} = React;\cb1 \
+\
+\cb3         const questionBank = \{\cb1 \
+\cb3             "Sudut Istimewa": [\cb1 \
+\cb3                 \{ question: "sin 30\'b0 =", options: ["1/2", "1/2\uc0\u8730 2", "1/2\u8730 3", "1"], correct: "1/2" \},\cb1 \
+\cb3                 \{ question: "cos 60\'b0 =", options: ["1/2", "0", "1", "1/2\uc0\u8730 3"], correct: "1/2" \},\cb1 \
+\cb3                 \{ question: "tan 45\'b0 =", options: ["1", "\uc0\u8730 3", "1/3\u8730 3", "0"], correct: "1" \},\cb1 \
+\cb3                 \{ question: "sin 90\'b0 =", options: ["1", "0", "1/2", "\uc0\u8734 "], correct: "1" \},\cb1 \
+\cb3                 \{ question: "cos 0\'b0 =", options: ["1", "0", "1/2", "1/2\uc0\u8730 2"], correct: "1" \},\cb1 \
+\cb3                 \{ question: "tan 60\'b0 =", options: ["\uc0\u8730 3", "1/3\u8730 3", "1", "\u8734 "], correct: "\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 45\'b0 =", options: ["1/2\uc0\u8730 2", "1/2", "1/2\u8730 3", "1"], correct: "1/2\u8730 2" \},\cb1 \
+\cb3                 \{ question: "cos 30\'b0 =", options: ["1/2\uc0\u8730 3", "1/2\u8730 2", "1/2", "0"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "tan 30\'b0 =", options: ["1/3\uc0\u8730 3", "\u8730 3", "1", "0"], correct: "1/3\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 0\'b0 =", options: ["0", "1", "1/2", "1/2\uc0\u8730 3"], correct: "0" \},\cb1 \
+\cb3                 \{ question: "cos 90\'b0 =", options: ["0", "1", "1/2", "1/2\uc0\u8730 2"], correct: "0" \},\cb1 \
+\cb3                 \{ question: "tan 0\'b0 =", options: ["0", "1", "\uc0\u8730 3", "\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "sin 60\'b0 =", options: ["1/2\uc0\u8730 3", "1/2", "1/2\u8730 2", "\u8730 3"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "cos 45\'b0 =", options: ["1/2\uc0\u8730 2", "1/2", "1/2\u8730 3", "1"], correct: "1/2\u8730 2" \},\cb1 \
+\cb3                 \{ question: "cot 45\'b0 =", options: ["1", "0", "\uc0\u8734 ", "1/2"], correct: "1" \},\cb1 \
+\cb3                 \{ question: "cosec 30\'b0 =", options: ["2", "1", "\uc0\u8730 2", "2/3\u8730 3"], correct: "2" \},\cb1 \
+\cb3                 \{ question: "sec 60\'b0 =", options: ["2", "1", "\uc0\u8730 2", "2/3\u8730 3"], correct: "2" \},\cb1 \
+\cb3                 \{ question: "sin 37\'b0 (approx) =", options: ["3/5", "4/5", "1/2", "1"], correct: "3/5" \},\cb1 \
+\cb3                 \{ question: "cos 53\'b0 (approx) =", options: ["3/5", "4/5", "1/2", "0"], correct: "3/5" \},\cb1 \
+\cb3                 \{ question: "tan 37\'b0 (approx) =", options: ["3/4", "4/3", "1", "0"], correct: "3/4" \}\cb1 \
+\cb3             ],\cb1 \
+\cb3             "Sudut Relasi Q-II & Q-III": [\cb1 \
+\cb3                 \{ question: "sin 120\'b0 =", options: ["1/2\uc0\u8730 3", "-1/2\u8730 3", "1/2", "-1/2"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "cos 150\'b0 =", options: ["-1/2\uc0\u8730 3", "1/2\u8730 3", "-1/2", "1/2"], correct: "-1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "tan 135\'b0 =", options: ["-1", "1", "0", "-\uc0\u8730 3"], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "sin 210\'b0 =", options: ["-1/2", "1/2", "-1/2\uc0\u8730 3", "1/2\u8730 3"], correct: "-1/2" \},\cb1 \
+\cb3                 \{ question: "cos 240\'b0 =", options: ["-1/2", "1/2", "-1/2\uc0\u8730 3", "0"], correct: "-1/2" \},\cb1 \
+\cb3                 \{ question: "tan 225\'b0 =", options: ["1", "-1", "\uc0\u8730 3", "1/3\u8730 3"], correct: "1" \},\cb1 \
+\cb3                 \{ question: "sin 150\'b0 =", options: ["1/2", "-1/2", "1/2\uc0\u8730 3", "-1/2\u8730 3"], correct: "1/2" \},\cb1 \
+\cb3                 \{ question: "cos 120\'b0 =", options: ["-1/2", "1/2", "-1/2\uc0\u8730 3", "-1"], correct: "-1/2" \},\cb1 \
+\cb3                 \{ question: "tan 210\'b0 =", options: ["1/3\uc0\u8730 3", "-1/3\u8730 3", "\u8730 3", "1"], correct: "1/3\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 240\'b0 =", options: ["-1/2\uc0\u8730 3", "1/2\u8730 3", "-1/2", "-1"], correct: "-1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "cos 210\'b0 =", options: ["-1/2\uc0\u8730 3", "1/2\u8730 3", "-1/2", "-1"], correct: "-1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "tan 120\'b0 =", options: ["-\uc0\u8730 3", "\u8730 3", "-1/3\u8730 3", "1"], correct: "-\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 225\'b0 =", options: ["-1/2\uc0\u8730 2", "1/2\u8730 2", "-1/2", "-1"], correct: "-1/2\u8730 2" \},\cb1 \
+\cb3                 \{ question: "cos 135\'b0 =", options: ["-1/2\uc0\u8730 2", "1/2\u8730 2", "1/2", "-1/2"], correct: "-1/2\u8730 2" \},\cb1 \
+\cb3                 \{ question: "sin 180\'b0 =", options: ["0", "1", "-1", "\uc0\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "cos 270\'b0 =", options: ["0", "1", "-1", "\uc0\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "tan 240\'b0 =", options: ["\uc0\u8730 3", "-\u8730 3", "1/3\u8730 3", "\u8734 "], correct: "\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 270\'b0 =", options: ["-1", "1", "0", "\uc0\u8734 "], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "cos 180\'b0 =", options: ["-1", "1", "0", "1/2"], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "sin 150\'b0 + cos 120\'b0 =", options: ["0", "1", "-1", "1/2"], correct: "0" \}\cb1 \
+\cb3             ],\cb1 \
+\cb3             "Sudut Relasi Q-IV & Campuran": [\cb1 \
+\cb3                 \{ question: "cos 300\'b0 =", options: ["1/2", "-1/2", "1/2\uc0\u8730 3", "-1/2\u8730 3"], correct: "1/2" \},\cb1 \
+\cb3                 \{ question: "sin 330\'b0 =", options: ["-1/2", "1/2", "-1/2\uc0\u8730 3", "1/2\u8730 3"], correct: "-1/2" \},\cb1 \
+\cb3                 \{ question: "tan 315\'b0 =", options: ["-1", "1", "-\uc0\u8730 3", "0"], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "cos 330\'b0 =", options: ["1/2\uc0\u8730 3", "-1/2\u8730 3", "1/2", "-1/2"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "sin 300\'b0 =", options: ["-1/2\uc0\u8730 3", "1/2\u8730 3", "-1/2", "1/2"], correct: "-1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "tan 330\'b0 =", options: ["-1/3\uc0\u8730 3", "1/3\u8730 3", "-\u8730 3", "\u8730 3"], correct: "-1/3\u8730 3" \},\cb1 \
+\cb3                 \{ question: "cos 315\'b0 =", options: ["1/2\uc0\u8730 2", "-1/2\u8730 2", "1/2", "-1"], correct: "1/2\u8730 2" \},\cb1 \
+\cb3                 \{ question: "sin 360\'b0 =", options: ["0", "1", "-1", "\uc0\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "cos 360\'b0 =", options: ["1", "0", "-1", "\uc0\u8734 "], correct: "1" \},\cb1 \
+\cb3                 \{ question: "sin (-30\'b0) =", options: ["-1/2", "1/2", "-1/2\uc0\u8730 3", "1"], correct: "-1/2" \},\cb1 \
+\cb3                 \{ question: "cos (-60\'b0) =", options: ["1/2", "-1/2", "1/2\uc0\u8730 3", "0"], correct: "1/2" \},\cb1 \
+\cb3                 \{ question: "tan (-45\'b0) =", options: ["-1", "1", "0", "-\uc0\u8730 3"], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "sin 420\'b0 =", options: ["1/2\uc0\u8730 3", "-1/2\u8730 3", "1/2", "-1/2"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "cos 390\'b0 =", options: ["1/2\uc0\u8730 3", "1/2", "-1/2\u8730 3", "1"], correct: "1/2\u8730 3" \},\cb1 \
+\cb3                 \{ question: "tan 405\'b0 =", options: ["1", "-1", "\uc0\u8730 3", "0"], correct: "1" \},\cb1 \
+\cb3                 \{ question: "sin 720\'b0 =", options: ["0", "1", "-1", "\uc0\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "cos 450\'b0 =", options: ["0", "1", "-1", "\uc0\u8734 "], correct: "0" \},\cb1 \
+\cb3                 \{ question: "sin (-90\'b0) =", options: ["-1", "1", "0", "\uc0\u8734 "], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "cos (-180\'b0) =", options: ["-1", "1", "0", "\uc0\u8734 "], correct: "-1" \},\cb1 \
+\cb3                 \{ question: "tan 300\'b0 =", options: ["-\uc0\u8730 3", "\u8730 3", "-1/3\u8730 3", "1"], correct: "-\u8730 3" \}\cb1 \
+\cb3             ]\cb1 \
+\cb3         \};\cb1 \
+\
+\cb3         const App = () => \{\cb1 \
+\cb3             const [state, setState] = useState('SPLASH'); \cb1 \
+\cb3             const [selectedCategory, setSelectedCategory] = useState(null);\cb1 \
+\cb3             const [ropePos, setRopePos] = useState(50); \cb1 \
+\cb3             const [questions, setQuestions] = useState(\{ A: null, B: null \});\cb1 \
+\cb3             const [penalty, setPenalty] = useState(\{ A: 0, B: 0 \}); \cb1 \
+\cb3             const [winner, setWinner] = useState(null);\cb1 \
+\cb3             \cb1 \
+\cb3             const bgm = useRef(new Audio("https://github.com/ilindekguru/Lagulagu/raw/refs/heads/main/Kids%20Toddler%20Background%20Music%20Song%20For%20Videos%20-%20Background%20Music%20for%20Videos.mp3"));\cb1 \
+\cb3             const winSfx = useRef(new Audio("https://github.com/ilindekguru/Lagulagu/raw/refs/heads/main/brass-fanfare-with-timpani-and-winchimes-reverberated-146260.mp3"));\cb1 \
+\
+\cb3             useEffect(() => \{\cb1 \
+\cb3                 if (state === 'SPLASH') \{\cb1 \
+\cb3                     const timer = setTimeout(() => setState('TITLE'), 6000);\cb1 \
+\cb3                     return () => clearTimeout(timer);\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}, [state]);\cb1 \
+\
+\cb3             useEffect(() => \{\cb1 \
+\cb3                 const interval = setInterval(() => \{\cb1 \
+\cb3                     setPenalty(prev => (\{\cb1 \
+\cb3                         A: Math.max(0, prev.A - 1),\cb1 \
+\cb3                         B: Math.max(0, prev.B - 1)\cb1 \
+\cb3                     \}));\cb1 \
+\cb3                 \}, 1000);\cb1 \
+\cb3                 return () => clearInterval(interval);\cb1 \
+\cb3             \}, []);\cb1 \
+\
+\cb3             const shuffle = (array) => \{\cb1 \
+\cb3                 const newArr = [...array];\cb1 \
+\cb3                 for (let i = newArr.length - 1; i > 0; i--) \{\cb1 \
+\cb3                     const j = Math.floor(Math.random() * (i + 1));\cb1 \
+\cb3                     [newArr[i], newArr[j]] = [newArr[j], newArr[i]];\cb1 \
+\cb3                 \}\cb1 \
+\cb3                 return newArr;\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const getNewQuestion = (cat) => \{\cb1 \
+\cb3                 const list = questionBank[cat];\cb1 \
+\cb3                 const q = list[Math.floor(Math.random() * list.length)];\cb1 \
+\cb3                 return \{ ...q, shuffledOptions: shuffle(q.options) \};\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const startGame = (cat) => \{\cb1 \
+\cb3                 setSelectedCategory(cat);\cb1 \
+\cb3                 setRopePos(50);\cb1 \
+\cb3                 setWinner(null);\cb1 \
+\cb3                 setQuestions(\{\cb1 \
+\cb3                     A: getNewQuestion(cat),\cb1 \
+\cb3                     B: getNewQuestion(cat)\cb1 \
+\cb3                 \});\cb1 \
+\cb3                 setPenalty(\{ A: 0, B: 0 \});\cb1 \
+\cb3                 bgm.current.pause();\cb1 \
+\cb3                 setState('ARENA');\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const handleAnswer = (team, answer) => \{\cb1 \
+\cb3                 if (penalty[team] > 0) return;\cb1 \
+\
+\cb3                 const isCorrect = answer === questions[team].correct;\cb1 \
+\cb3                 \cb1 \
+\cb3                 if (isCorrect) \{\cb1 \
+\cb3                     const moveAmount = 5;\cb1 \
+\cb3                     const newPos = team === 'A' ? ropePos - moveAmount : ropePos + moveAmount;\cb1 \
+\cb3                     setRopePos(newPos);\cb1 \
+\cb3                     \cb1 \
+\cb3                     if (newPos <= 15) \{\cb1 \
+\cb3                         finishGame('TIM A (HIJAU)');\cb1 \
+\cb3                     \} else if (newPos >= 85) \{\cb1 \
+\cb3                         finishGame('TIM B (MERAH)');\cb1 \
+\cb3                     \} else \{\cb1 \
+\cb3                         setQuestions(prev => (\{\cb1 \
+\cb3                             ...prev,\cb1 \
+\cb3                             [team]: getNewQuestion(selectedCategory)\cb1 \
+\cb3                         \}));\cb1 \
+\cb3                     \}\cb1 \
+\cb3                 \} else \{\cb1 \
+\cb3                     setPenalty(prev => (\{ ...prev, [team]: 5 \}));\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const finishGame = (winnerName) => \{\cb1 \
+\cb3                 setWinner(winnerName);\cb1 \
+\cb3                 winSfx.current.currentTime = 0;\cb1 \
+\cb3                 winSfx.current.play().catch(e => console.log("Audio play failed", e));\cb1 \
+\cb3                 setState('WINNER');\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const backToMenu = () => \{\cb1 \
+\cb3                 bgm.current.play().catch(e => console.log("Audio play failed", e));\cb1 \
+\cb3                 setState('MENU');\cb1 \
+\cb3             \};\cb1 \
+\
+\cb3             const renderSplash = () => (\cb1 \
+\cb3                 <div className="fixed inset-0 bg-white flex items-center justify-center z-50 p-6">\cb1 \
+\cb3                     <div className="text-center splash-zoom">\cb1 \
+\cb3                         <h1 className="text-4xl md:text-5xl font-game text-gray-800 leading-relaxed">\cb1 \
+\cb3                             Created by<br/>Novia Ayu Lestari\cb1 \
+\cb3                         </h1>\cb1 \
+\cb3                     </div>\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\
+\cb3             const renderTitle = () => (\cb1 \
+\cb3                 <div \cb1 \
+\cb3                     className="fixed inset-0 bg-cover bg-center flex flex-col items-center justify-end pb-24"\cb1 \
+\cb3                     style=\{\{ backgroundImage: `url('https://i.imgur.com/KVAWwr3.png')` \}\}\cb1 \
+\cb3                 >\cb1 \
+\cb3                     <div className="bg-black/40 p-10 rounded-3xl backdrop-blur-sm flex flex-col items-center">\cb1 \
+\cb3                         <h1 className="text-6xl font-game text-white mb-8 drop-shadow-lg text-center">TRIGO MOBILE LEGEND</h1>\cb1 \
+\cb3                         <button \cb1 \
+\cb3                             onClick=\{() => \{ bgm.current.play().catch(e => console.log(e)); setState('MENU'); \}\}\cb1 \
+\cb3                             className="bg-green-500 hover:bg-green-600 text-white font-game text-4xl px-20 py-6 rounded-full shadow-2xl transition-transform hover:scale-110 active:scale-95"\cb1 \
+\cb3                         >\cb1 \
+\cb3                             MASUK\cb1 \
+\cb3                         </button>\cb1 \
+\cb3                     </div>\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\
+\cb3             const renderMenu = () => (\cb1 \
+\cb3                 <div className="fixed inset-0 bg-slate-900 overflow-y-auto p-8 flex flex-col items-center">\cb1 \
+\cb3                     <h1 className="text-5xl font-game text-white mb-12 border-b-4 border-yellow-500 pb-4">PILIH TOPIK</h1>\cb1 \
+\cb3                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">\cb1 \
+\cb3                         \{Object.keys(questionBank).map(cat => (\cb1 \
+\cb3                             <button\cb1 \
+\cb3                                 key=\{cat\}\cb1 \
+\cb3                                 onClick=\{() => startGame(cat)\}\cb1 \
+\cb3                                 className="bg-gradient-to-br from-blue-600 to-indigo-800 p-8 rounded-2xl text-white shadow-xl hover:scale-105 transition-all flex flex-col items-center group"\cb1 \
+\cb3                             >\cb1 \
+\cb3                                 <span className="text-6xl mb-4 group-hover:rotate-12 transition-transform">\uc0\u55357 \u56528 </span>\cb1 \
+\cb3                                 <span className="text-2xl font-bold text-center">\{cat\}</span>\cb1 \
+\cb3                                 <span className="mt-4 text-sm opacity-80">Soal Tersedia</span>\cb1 \
+\cb3                             </button>\cb1 \
+\cb3                         ))\}\cb1 \
+\cb3                     </div>\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\
+\cb3             const renderArena = () => (\cb1 \
+\cb3                 <div className="fixed inset-0 flex flex-col bg-black">\cb1 \
+\cb3                     \{/* TOP: QUESTIONS (15%) */\}\cb1 \
+\cb3                     <div className="h-[15%] flex border-b-4 border-yellow-600">\cb1 \
+\cb3                         <div className="w-1/2 bg-green-900/80 p-4 flex flex-col items-center justify-center border-r-2 border-white/20">\cb1 \
+\cb3                             <span className="text-green-400 font-bold mb-1">SOAL TIM A</span>\cb1 \
+\cb3                             <div className="text-white text-xl font-bold text-center">\cb1 \
+\cb3                                 \{questions.A.question\}\cb1 \
+\cb3                             </div>\cb1 \
+\cb3                         </div>\cb1 \
+\cb3                         <div className="w-1/2 bg-red-900/80 p-4 flex flex-col items-center justify-center border-l-2 border-white/20">\cb1 \
+\cb3                             <span className="text-red-400 font-bold mb-1">SOAL TIM B</span>\cb1 \
+\cb3                             <div className="text-white text-xl font-bold text-center">\cb1 \
+\cb3                                 \{questions.B.question\}\cb1 \
+\cb3                             </div>\cb1 \
+\cb3                         </div>\cb1 \
+\cb3                     </div>\cb1 \
+\
+\cb3                     \{/* CENTER: ARENA (60%) */\}\cb1 \
+\cb3                     <div \cb1 \
+\cb3                         className="h-[60%] relative bg-cover bg-center overflow-hidden"\cb1 \
+\cb3                         style=\{\{ backgroundImage: `url('https://i.imgur.com/KVAWwr3.png')` \}\}\cb1 \
+\cb3                     >\cb1 \
+\cb3                         \{/* ROPE */\}\cb1 \
+\cb3                         <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 px-10">\cb1 \
+\cb3                             <div className="rope-line">\cb1 \
+\cb3                                 <div className="knot" style=\{\{ left: `$\{ropePos\}%` \}\}></div>\cb1 \
+\cb3                             </div>\cb1 \
+\cb3                         </div>\cb1 \
+\
+\cb3                         \{/* PLAYER A (GREEN) */\}\cb1 \
+\cb3                         <div \cb1 \
+\cb3                             className="absolute bottom-10 transition-all duration-300 ease-out"\cb1 \
+\cb3                             style=\{\{ left: `calc($\{ropePos\}% - 320px)` \}\}\cb1 \
+\cb3                         >\cb1 \
+\cb3                             <img src="https://i.imgur.com/osPURuq.png" className="h-64 object-contain" alt="Player A" />\cb1 \
+\cb3                             <div className="bg-green-600 text-white px-4 py-1 rounded-full font-game text-center mt-2 shadow-lg">TIM A</div>\cb1 \
+\cb3                         </div>\cb1 \
+\
+\cb3                         \{/* PLAYER B (RED) */\}\cb1 \
+\cb3                         <div \cb1 \
+\cb3                             className="absolute bottom-10 transition-all duration-300 ease-out"\cb1 \
+\cb3                             style=\{\{ left: `calc($\{ropePos\}% + 50px)` \}\}\cb1 \
+\cb3                         >\cb1 \
+\cb3                             <img src="https://i.imgur.com/0w50ZIa.png" className="h-64 object-contain" alt="Player B" />\cb1 \
+\cb3                             <div className="bg-red-600 text-white px-4 py-1 rounded-full font-game text-center mt-2 shadow-lg">TIM B</div>\cb1 \
+\cb3                         </div>\cb1 \
+\
+\cb3                         \{/* INDICATORS */\}\cb1 \
+\cb3                         <div className="absolute top-4 left-1/2 transform -translate-x-1/2 flex gap-4">\cb1 \
+\cb3                             <div className=\{`px-6 py-2 rounded-full font-game $\{ropePos < 50 ? 'bg-green-600 animate-pulse' : 'bg-gray-800'\} text-white`\}>MENANG: \{100-Math.round(ropePos)\}%</div>\cb1 \
+\cb3                             <div className=\{`px-6 py-2 rounded-full font-game $\{ropePos > 50 ? 'bg-red-600 animate-pulse' : 'bg-gray-800'\} text-white`\}>MENANG: \{Math.round(ropePos)\}%</div>\cb1 \
+\cb3                         </div>\cb1 \
+\cb3                     </div>\cb1 \
+\
+\cb3                     \{/* BOTTOM: CONTROLS (25%) */\}\cb1 \
+\cb3                     <div className="h-[25%] flex bg-slate-800 border-t-4 border-yellow-600">\cb1 \
+\cb3                         \{/* TIM A BUTTONS */\}\cb1 \
+\cb3                         <div className="w-1/2 p-4 grid grid-cols-2 gap-3 relative">\cb1 \
+\cb3                             \{penalty.A > 0 && (\cb1 \
+\cb3                                 <div className="absolute inset-0 z-10 bg-black/80 flex items-center justify-center text-red-500 font-game text-4xl shake rounded-xl">\cb1 \
+\cb3                                     SALAH! (\{penalty.A\}s)\cb1 \
+\cb3                                 </div>\cb1 \
+\cb3                             )\}\cb1 \
+\cb3                             \{questions.A.shuffledOptions.map((opt, i) => (\cb1 \
+\cb3                                 <button\cb1 \
+\cb3                                     key=\{i\}\cb1 \
+\cb3                                     onClick=\{() => handleAnswer('A', opt)\}\cb1 \
+\cb3                                     className="bg-green-600 hover:bg-green-700 text-white font-bold text-xl rounded-xl shadow-[0_4px_0_#166534] active:shadow-none active:translate-y-1 transition-all"\cb1 \
+\cb3                                 >\cb1 \
+\cb3                                     \{opt\}\cb1 \
+\cb3                                 </button>\cb1 \
+\cb3                             ))\}\cb1 \
+\cb3                         </div>\cb1 \
+\cb3                         \cb1 \
+\cb3                         \{/* TIM B BUTTONS */\}\cb1 \
+\cb3                         <div className="w-1/2 p-4 grid grid-cols-2 gap-3 relative border-l-4 border-slate-700">\cb1 \
+\cb3                             \{penalty.B > 0 && (\cb1 \
+\cb3                                 <div className="absolute inset-0 z-10 bg-black/80 flex items-center justify-center text-red-500 font-game text-4xl shake rounded-xl">\cb1 \
+\cb3                                     SALAH! (\{penalty.B\}s)\cb1 \
+\cb3                                 </div>\cb1 \
+\cb3                             )\}\cb1 \
+\cb3                             \{questions.B.shuffledOptions.map((opt, i) => (\cb1 \
+\cb3                                 <button\cb1 \
+\cb3                                     key=\{i\}\cb1 \
+\cb3                                     onClick=\{() => handleAnswer('B', opt)\}\cb1 \
+\cb3                                     className="bg-red-600 hover:bg-red-700 text-white font-bold text-xl rounded-xl shadow-[0_4px_0_#991b1b] active:shadow-none active:translate-y-1 transition-all"\cb1 \
+\cb3                                 >\cb1 \
+\cb3                                     \{opt\}\cb1 \
+\cb3                                 </button>\cb1 \
+\cb3                             ))\}\cb1 \
+\cb3                         </div>\cb1 \
+\cb3                     </div>\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\
+\cb3             const renderWinner = () => (\cb1 \
+\cb3                 <div className="fixed inset-0 bg-black/90 flex flex-col items-center justify-center z-[100] text-center p-10">\cb1 \
+\cb3                     <div className="text-yellow-500 text-6xl font-game mb-4">VICTORY!</div>\cb1 \
+\cb3                     <div className="text-white text-4xl font-game mb-8">PEMENANG: \{winner\}</div>\cb1 \
+\cb3                     <button \cb1 \
+\cb3                         onClick=\{backToMenu\}\cb1 \
+\cb3                         className="bg-yellow-500 hover:bg-yellow-600 text-black font-game text-3xl px-12 py-4 rounded-full transition-transform hover:scale-110"\cb1 \
+\cb3                     >\cb1 \
+\cb3                         KEMBALI KE MENU\cb1 \
+\cb3                     </button>\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\
+\cb3             return (\cb1 \
+\cb3                 <div className="w-full h-screen bg-black">\cb1 \
+\cb3                     \{state === 'SPLASH' && renderSplash()\}\cb1 \
+\cb3                     \{state === 'TITLE' && renderTitle()\}\cb1 \
+\cb3                     \{state === 'MENU' && renderMenu()\}\cb1 \
+\cb3                     \{state === 'ARENA' && renderArena()\}\cb1 \
+\cb3                     \{state === 'WINNER' && renderWinner()\}\cb1 \
+\cb3                 </div>\cb1 \
+\cb3             );\cb1 \
+\cb3         \};\cb1 \
+\
+\cb3         const root = ReactDOM.createRoot(document.getElementById('root'));\cb1 \
+\cb3         root.render(<App />);\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+}
